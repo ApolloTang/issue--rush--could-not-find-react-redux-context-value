@@ -1,0 +1,15 @@
+{
+  "extends": "./node_modules/@myscope/heft-config-default-rig/profiles/react-ui/tsconfig-base.json",
+  "compilerOptions": {
+    "composite": true,
+    "types": ["heft-jest", "node",
+      "@types/testing-library__jest-dom"
+    ],
+
+    // -----------------------
+    // [tech-debt] override
+    // -----------------------
+    "noImplicitAny": false,
+    "strictNullChecks": false
+  }
+}

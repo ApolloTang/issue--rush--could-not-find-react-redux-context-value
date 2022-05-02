@@ -1,0 +1,3 @@
+{
+  "extends": "@myscope/heft-config-default-rig/profiles/react-ui/config/jest.config.json"
+}

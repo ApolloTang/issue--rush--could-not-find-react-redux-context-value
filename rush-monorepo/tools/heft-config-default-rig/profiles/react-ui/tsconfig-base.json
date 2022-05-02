@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+
+  "compilerOptions": {
+    "outDir":  "../../../../../dist",
+    "rootDir": "../../../../../src",
+
+    "jsx": "react",
+
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmitOnError": false,
+    "allowUnreachableCode": false,
+    "isolatedModules": true,
+
+    "resolveJsonModule": true,
+
+    "types": [],
+
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "target": "es2017",
+    "lib": [ "dom", "dom.iterable", "es2019" ],
+    "downlevelIteration": true, // See https://stackoverflow.com/a/63349029/3136861
+
+
+  },
+  "include": [
+    "../../../../../src/**/*.ts",
+    "../../../../../src/**/*.tsx",
+    "../../../../../src/**/*.json"
+    // in the above when composite is true we are required to include json
+    // see: https://github.com/microsoft/TypeScript/issues/25636
+  ]
+}

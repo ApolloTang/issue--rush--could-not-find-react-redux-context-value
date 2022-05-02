@@ -1,0 +1,40 @@
+{
+  "name": "@myscope/ui--test-renderer",
+  "version": "0.1.0",
+  "description": "this is react ui project",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "module": "src/main.tsx",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "@testing-library/react": "^11.1.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-thunk": "^2.3.0",
+    "core-js": "^3.6.5"
+  },
+  "devDependencies": {
+    "@myscope/heft-config-default-rig": "workspace:*",
+    "@myscope/eslint-config": "workspace:*",
+    "@myscope/prettier-config": "workspace:*",
+    "@rushstack/eslint-patch": "^1.0.6",
+    "@rushstack/heft": "^0.37.0",
+    "@types/heft-jest": "1.0.2",
+    "@types/node": "14.17.3",
+    "typescript": "~4.3.5",
+    "eslint": "~7.32.0",
+    "prettier": "^2.4.1",
+    "@types/react": "17.0.2",
+    "@types/testing-library__jest-dom": "5.14.1"
+  },
+  "scripts": {
+    "build": "heft build --clean",
+    "build:watch": "heft build",
+    "clean": "heft clean",
+    "test": "heft test",
+    "validate-lint": "eslint src --ext=ts,tsx",
+    "validate-lint:fix": "npm run validate-lint -- --fix",
+    "validate-type": "heft build --clean"
+  }
+}

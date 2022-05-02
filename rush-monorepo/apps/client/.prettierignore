@@ -1,0 +1,6 @@
+**/extracted-messages/**/*.json
+dist
+
+package.json
+tsconfig.json
+tsconfig.*.json

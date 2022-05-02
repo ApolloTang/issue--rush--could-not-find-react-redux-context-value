@@ -1,0 +1,14 @@
+{
+  "name": "@myscope/prettier-config",
+  "description": "prettier config for rush monorepo",
+  "version": "1.0.0",
+  "main": "index.json",
+  "license": "MIT",
+
+  "scripts": {
+    "build": ""
+  },
+  "devDependencies": {
+    "eslint": "~7.32.0"
+  }
+}
