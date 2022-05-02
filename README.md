@@ -1,5 +1,27 @@
 # Error when running jest
 
+
+
+## Description
+
+**Problem encountered:** 
+
+When running integration test with react teating library, I would like to share my test bed among react applications. However, jest is running multiple instance of React-Redux in the dependency package, and you get the error :
+
+```
+could not find react-redux context value; please ensure the component is wrapped in a <Provider>
+```
+
+**Work around:** 
+
+using module-resolver in babal so that we are always use React-Redux  in the consumer application. 
+
+
+
+## Details
+
+
+
 <img src="./documents/error-when-running-test.png" />
 
 
