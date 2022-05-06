@@ -67,7 +67,7 @@ https://github.com/reduxjs/react-redux/issues/1631
 
 https://github.com/microsoft/redux-dynamic-modules/issues/144 
 
-
+https://penx.medium.com/managing-dependencies-in-a-node-package-so-that-they-are-compatible-with-npm-link-61befa5aaca7
 
 
 
