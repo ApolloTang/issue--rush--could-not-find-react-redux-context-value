@@ -6,8 +6,8 @@ module.exports = {
   // rootDir: '../..', // This is the monorepo root
 
   testMatch: [
-    projectRoot + '/**/__tests__/**/*.[jt]s?(x)',
-    projectRoot + '/**/?(*.)+(test).[jt]s?(x)',
+    // projectRoot + '/**/__tests__/**/*.[jt]s?(x)',
+    projectRoot + '/**/*.test.ts(x)',
     // '<rootDir>/{ui,utils}/**/?(*.)+(test).[jt]s?(x)',
   ],
 
