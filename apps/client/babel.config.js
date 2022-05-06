@@ -38,12 +38,12 @@ module.exports = api => {
       'module-resolver',
       {
         alias: {
-          // https://github.com/reduxjs/react-redux/issues/1631
-          // https://github.com/microsoft/redux-dynamic-modules/issues/144
-          'react-redux': path.resolve(
-            __dirname,
-            'node_modules/react-redux/lib'
-          ),
+          // // https://github.com/reduxjs/react-redux/issues/1631
+          // // https://github.com/microsoft/redux-dynamic-modules/issues/144
+          // 'react-redux': path.resolve(
+          //   __dirname,
+          //   'node_modules/react-redux/lib'
+          // ),
         },
       },
     ],
